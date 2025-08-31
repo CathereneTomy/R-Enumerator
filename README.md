@@ -16,6 +16,10 @@ The provided Jupyter notebook walks through the following steps:
 - The tool computes similarity between fragments removed from the parent molecule and those in the fragment library.
 - For each attachment point, it selects fragments that are physicochemically similar to the originals.
 - A new enumerated library of molecules is generated according to user specifications.
+- **Optional**: Users can provide their own fragment library. To generate one from a CSV of molecules, use the provided `brics.py` script:
+```bash
+  python brics.py input.csv output.csv
+```
   
 ### Fragment Linking and Descriptor Similarity
 Similarity is guided by a focused set of physicochemical descriptors:
