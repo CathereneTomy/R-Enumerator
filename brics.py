@@ -25,7 +25,7 @@ def main(input_csv, output_csv):
     new_df = pd.DataFrame(new_rows)
 
     new_df.to_csv(output_csv, index=False)
-    print(f"✅ Saved file with fragments to {output_csv}")
+    print(f"Saved file with fragments to {output_csv}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="BRICS decomposition of molecules from a CSV file.")
@@ -34,3 +34,4 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     main(args.input_csv, args.output_csv)
+
