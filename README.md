@@ -1,5 +1,5 @@
-# R-Enumerator
-R-Enumerator is a tool for systematic R-group enumeration based on fragment linking and similarity-driven selection. It enables exploration of chemical space by attaching fragments to defined scaffolds, filtering them using descriptor-based cutoffs, and generating diverse ligand libraries.
+# FARE
+Fragment Aware R-group Enumerator is a tool for systematic R-group enumeration based on fragment linking and similarity-driven selection. It enables exploration of chemical space by attaching context aware fragments to defined scaffolds, filtering them using descriptor-based cutoffs, and generating diverse ligand libraries.
 
 ## How It Works
 
