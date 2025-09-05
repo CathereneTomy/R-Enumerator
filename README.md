@@ -37,7 +37,7 @@ These descriptors are chosen to capture size, polarity, flexibility, and H-bondi
 
 ```bash
 ### 1. Clone the repository
-git clone https://github.com/CathereneTomy/R-Enumerator.git
+git clone https://github.com/CathereneTomy/FARE.git
 cd REnumerator
 
 ### 2. Create and activate the conda environment
